@@ -5,8 +5,9 @@ import { inspectAttr } from 'kimi-plugin-inspect-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: './',
-  plugins: [inspectAttr(), react()],
+  base: '/Ranles-Empresa/',
+  plugins: [react()],
+})
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
